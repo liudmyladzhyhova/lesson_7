@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Shizuru&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	/* padding: 15px; */
+}
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	background-color: rgb(213, 233, 252);
+	background-size: cover;
+	line-height: 1;
+}
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.main {
+	margin-bottom: 70px;
+}
+.bg-color {
+	font-family: "Shizuru", sans-serif;
+	max-width: 650px;
+	margin: 0 auto;
+	font-size: 46px;
+	font-weight: 400;
+	background-color: #f18ffa;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 60px;
+	padding: 15px;
+}
+.bg-image {
+	background: url("../img/dog-5695088_960_720.png") no-repeat;
+	min-height: 500px;
+	max-width: 700px;
+	margin: 0 0 40px auto;
+}
+.text {
+	font-size: 30px;
+	text-align: right;
+	letter-spacing: 5px;
+	color: rgb(0, 0, 0);
+}
+.bg-linear {
+	max-width: 800px;
+	background: linear-gradient(90deg, rgba(191, 136, 227, 1) 27%, rgba(29, 218, 253, 1) 57%, rgba(252, 176, 69, 1) 86%);
+	border-radius: 10%;
+	padding: 25px;
+	margin: 0 auto 40px;
+}
+.bg-radial {
+	max-width: 800px;
+	background: radial-gradient(
+		circle,
+		rgba(191, 136, 227, 1) 27%,
+		rgba(29, 218, 253, 1) 57%,
+		rgba(252, 176, 69, 1) 86%
+	);
+	border-radius: 40%;
+	padding: 25px;
+	margin: 0 auto 90px;
+}
+.repeat {
+	max-width: 700px;
+	min-height: 300px;
+	background: url("../img/minimal0.jpg");
+	margin: 0 auto 50px;
+	border: 1px solid black;
+}
+.no-repeat {
+	background: url("../img/minimal0.jpg") center no-repeat;
+}
+.repeat-x {
+	background: url("../img/minimal0.jpg") center repeat-x;
+}
+.repeat-y {
+	background: url("../img/minimal0.jpg") center repeat-y;
+}
+.space {
+	background: url("../img/minimal0.jpg") center space;
+}
+.round {
+	background: url("../img/minimal0.jpg") round;
+}
+.position {
+	max-width: 700px;
+	min-height: 300px;
+	background: url("../img/imgonline-com-ua-Resize-C0EXfC9LwNT977S.jpg");
+	margin: 0 auto 50px;
+	border: 1px solid rgb(255, 255, 255);
+}
+.position1 {
+	background: url("../img/imgonline-com-ua-Resize-C0EXfC9LwNT977S.jpg") 0 0 no-repeat;
+}
+.center {
+	background: url("../img/imgonline-com-ua-Resize-C0EXfC9LwNT977S.jpg") center no-repeat;
+}
+.left {
+	background: url("../img/imgonline-com-ua-Resize-C0EXfC9LwNT977S.jpg") left no-repeat;
+}
+.right {
+	background: url("../img/imgonline-com-ua-Resize-C0EXfC9LwNT977S.jpg") bottom right no-repeat;
+}
+.whatever {
+	background: url("../img/imgonline-com-ua-Resize-C0EXfC9LwNT977S.jpg") 160px 80px no-repeat;
+}
+.position2 {
+	max-width: 900px;
+	min-height: 500px;
+	background: url("../img/cat.png") left center no-repeat, url("../img/putin.png") center no-repeat,
+		url("../img/fox.png") top right no-repeat;
+	margin: 0 auto 50px;
+	border: 1px solid rgb(255, 72, 72);
+}
+.attachment {
+	max-width: 960px;
+	min-height: 640px;
+	background: url("../img/livigno-4839351_960_720.jpg") 0 0 no-repeat scroll;
+	margin: 0 auto 50px;
+}
+.fixed {
+	max-width: 800px;
+	min-height: 600px;
+	background: url("../img/llama-6782140_960_720.jpg") center no-repeat fixed;
+	margin: 0 auto 50px;
+	border-radius: 20%;
+}
+.local {
+	max-width: 800px;
+	max-height: 300px;
+	overflow: auto;
+	background: url("../img/white-abstract-background_23-2148810113.jpg") center local;
+	margin: 0 auto 50px;
+}
+.text1 {
+	text-align: justify;
+}
+.cover {
+	max-width: 1200px;
+	min-height: 650px;
+	background: url("../img/desert-6814275_960_720.png") 0 0 / cover no-repeat;
+	margin: 0 auto 50px;
+}
+.contain {
+	max-width: 1200px;
+	min-height: 650px;
+	background: url("../img/amsterdam-6823002_960_720.jpg") 0 0 / contain no-repeat;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+.footer {
+	text-align: center;
+}
+.link {
+	font-size: 70px;
+	font-weight: 700;
+}
